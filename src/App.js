@@ -6,8 +6,6 @@ import Create from './assets/Create';
 import Update from './assets/Update';
 
 function App() {
-
-
   return (
     <div>
       <BrowserRouter>

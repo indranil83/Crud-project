@@ -1,9 +1,8 @@
 import React from 'react'
-import { useSelector } from 'react-redux';
+import { useSelector,useDispatch } from 'react-redux';
 import { useNavigate, useParams } from 'react-router-dom'
-import { useState } from 'react';
+import { useState} from 'react';
 import { updateUser } from './UserReducer';
-import { useDispatch } from 'react-redux';
 
 const Update = () => {
     const { id } = useParams();

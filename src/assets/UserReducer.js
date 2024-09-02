@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { userList } from "./Data"
-import Update from './Update';
+// import Update from './Update';
 
 const userSlice = createSlice({
     name: "user",
